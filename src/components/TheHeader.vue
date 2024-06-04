@@ -23,7 +23,9 @@ const submitFeedback = () => {
 
 <template>
   <header class="header">
-    <img class="logo" src="@/assets/logo.svg" alt="Company Logo" width="25" height="25" />
+    <RouterLink to="/">
+      <img class="logo" src="@/assets/logo.svg" alt="Company Logo" width="25" height="25" />
+    </RouterLink>
     <div class="user-info">
       <span class="username">Hi, {{ currentUser.username }}</span>
       <span class="profession">({{ currentUser.profession }})</span>
