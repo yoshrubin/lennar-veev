@@ -3,6 +3,10 @@ import TheToggle from './TheToggle.vue'
 
 const routes = [
   {
+    route: '/3d',
+    label: '3D'
+  },
+  {
     route: '/cookies',
     label: 'Cookies'
   },

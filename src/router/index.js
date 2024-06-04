@@ -23,6 +23,11 @@ const router = createRouter({
       path: '/general-policies',
       name: 'general-policies',
       component: () => import('@/components/GenericComponent.vue')
+    },
+    {
+      path: '/3d',
+      name: '3d',
+      component: () => import('@/components/3DComponent.vue')
     }
   ]
 })
