@@ -9,8 +9,8 @@ const currentUser = userData[0] //would probably be in state management in large
 </script>
 
 <template>
-  <TheHeader :user="currentUser" />
-  <UserManagement />
+  <TheHeader :current-user="currentUser" />
+  <UserManagement :user-data="userData" />
   <TheFooter />
   <RouterView />
 </template>
