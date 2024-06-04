@@ -8,6 +8,21 @@ const router = createRouter({
       path: '/',
       name: 'user-management',
       component: UserManagementView
+    },
+    {
+      path: '/cookies',
+      name: 'cookies',
+      component: () => import('@/components/GenericComponent.vue')
+    },
+    {
+      path: '/notifications',
+      name: 'notifications',
+      component: () => import('@/components/GenericComponent.vue')
+    },
+    {
+      path: '/general-policies',
+      name: 'general-policies',
+      component: () => import('@/components/GenericComponent.vue')
     }
   ]
 })
